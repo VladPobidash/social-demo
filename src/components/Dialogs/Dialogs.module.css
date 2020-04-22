@@ -1,0 +1,27 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+    padding: 10px;
+}
+.dialog, .item{
+    display: flex;
+    vertical-align: center;
+}
+.avatar img{
+    margin-right: 5px;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+}
+.dialogsItems .active{
+    color: #fdcb6e;
+}
+.messages {
+    padding: 10px;
+}
+.messages .message{
+    display: flex;
+    padding: 10px;
+}
