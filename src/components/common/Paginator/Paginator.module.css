@@ -1,11 +1,21 @@
 .paginator {
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pageNumber.selectedPage {
     font-weight: bold;
-    border-bottom: red 1px solid;
 }
 .paginator span {
     cursor: pointer;
     margin: 0 2px;
+}
+.btn {
+    background: #1c1c1c;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 75px;
+    margin: 10px 10px;
 }

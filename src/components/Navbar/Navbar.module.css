@@ -1,14 +1,21 @@
 .nav {
     grid-area: n;
-    background-color: #0984e3;
+    /*background-color: #ebebeb;*/
     padding: 20px;
 }
-.item a{
-    color: white;
+.item {
+    margin-top: 8px;
+}
+.item a {
+    color: #1c1c1c;
     text-decoration: none;
 }
+.item a:hover {
+    opacity: .75;
+}
 .item a.activeLink {
-    color: #fdcb6e;
+    color: #1c1c1c;
+    font-weight: bold;
 }
 .friends {
     margin-top: 50px;

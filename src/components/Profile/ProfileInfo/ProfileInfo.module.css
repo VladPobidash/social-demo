@@ -1,8 +1,49 @@
-.descriptionBlock {
+.mainProfileInfo {
+    display: flex;
+    background: white;
+    margin-left: 50px;
+    margin-top: 55px;
+    width: 425px;
+    border-radius: 15px;
     padding: 10px;
 }
-.descriptionBlock img {
+.mainProfileInfo img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+.contact {
+    padding-left: 10px;
+}
+.avatar {
+    display: inline-block;
+}
+.mainDescription {
+    margin-left: 10px;
+}
+.status {
+    margin-right: 5px;
+}
+.newPhoto {
+    margin-top: 5px;
+}
+.moreInfo {
+    background: white;
+    margin-left: 50px;
+    margin-top: 55px;
+    width: 425px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.btn {
+    background: #1c1c1c;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+}
+.btn:hover {
+    opacity: .9;
 }

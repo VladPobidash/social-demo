@@ -15,7 +15,9 @@ const Dialogs = (props) => {
     }
 
     return (
+
         <div className={s.dialogs}>
+
             <div className={s.dialogsItems}>
                 {  dialogsElements }
             </div>
@@ -25,6 +27,8 @@ const Dialogs = (props) => {
                     <AddMessageForm onSubmit={addNewMessage} />
                 </div>
             </div>
+            <span className={s.someText}>It is beta version dialogs page.<br/>
+                New functional in the next version.</span>
         </div>
     )
 }

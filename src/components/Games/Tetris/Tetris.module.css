@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.body {
+    text-align: center;
+    padding: 3rem;
+}
+.body h1 {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: white;
+}
+.body canvas {
+    display: block;
+    margin: 0 auto;
+}
+.T {
+    color: red
+}
+.E {
+    color: orange
+}
+.T {
+    color: yellow
+}
+.R {
+    color: green
+}
+.I {
+    color: cyan
+}
+.S {
+    color: purple
+}

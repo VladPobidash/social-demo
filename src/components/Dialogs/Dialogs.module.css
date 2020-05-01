@@ -1,13 +1,25 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 2fr 5fr;
+    background: white;
+    width: 90%;
+    border-radius: 15px;
+    margin: 55px auto;
 }
 .dialogsItems {
     padding: 10px;
 }
 .dialog, .item{
     display: flex;
+    margin-top: 10px;
     vertical-align: center;
+}
+.name {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+.name:hover {
+    opacity: .9;
 }
 .avatar img{
     margin-right: 5px;
@@ -16,12 +28,25 @@
     height: 25px;
 }
 .dialogsItems .active{
-    color: #fdcb6e;
+    color: #1c1c1c;
 }
 .messages {
     padding: 10px;
 }
 .messages .message{
     display: flex;
-    padding: 10px;
+    margin-bottom: 10px;
+    vertical-align: center;
+}
+.btn {
+    background: #1c1c1c;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+}
+.someText {
+    margin-left: 15px;
 }

@@ -10,11 +10,11 @@ const maxLength10 = maxLengthCreator(10);
 const AddNewPostForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
-            <div>
+            <div >
                 <Field component={Textarea} name="newPostText" validate={[required, maxLength10]} placeholder={'Post message'} />
             </div>
             <div>
-                <button>Add Post</button>
+                <button className={s.btn}>Add Post</button>
             </div>
         </form>
     )
@@ -22,11 +22,10 @@ const AddNewPostForm = (props) => {
 const ProfileAddNewPostForm = reduxForm({form: 'ProfileAddNewPostForm'})(AddNewPostForm);
 
 const MyPosts = React.memo((props) => {
-    console.log("Work")
     let postsElements =
         [...props.posts]
             .reverse()
-            .map( p => <Post message={p.message} likesCount={p.likesCount} />);
+            .map( p => <Post key={p.id} message={p.message} likesCount={p.likesCount} />);
 
     let onAddPost = (values, dispatch) => {
         dispatch(reset('postMessage'))
